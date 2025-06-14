@@ -46,11 +46,10 @@ import ps from 'pad-step';
 
 const result = ps('Name', 10, 'Age', 5, 'Score', 7);
 console.log(result);
-
+// Output: "Name      Age  Score  "
 
 
 const result = ps('Apple', -10, '100', 5);
-
 console.log(result);
 // Output: "     Apple100  "
 ```
@@ -65,7 +64,7 @@ Same as `ps`, but logs the output directly to the console.
 import { psp } from 'pad-step';
 
 psp('Product', 15, 'Price', 10, 'Qty', 5);
-// Output: "Product        Price     Qty"
+// Output: "Product        Price     Qty  "
 ```
 
 ## Input Validation
