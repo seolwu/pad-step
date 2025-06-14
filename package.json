@@ -1,6 +1,6 @@
 {
   "name": "pad-step",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "padding a lot of strings",
   "main": "dist/index.js",
   "scripts": {
