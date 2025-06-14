@@ -17,16 +17,6 @@ yarn add pad-step
 pnpm add pad-step
 ```
 
-use via script tag:
-
-```html
-<script src="https://pastebin.com/raw/HVne8TzP" type="text/javascript"></script>
-<script>
-  const output = ps("Item", 10, "Qty", 5);
-  console.log(output);
-</script>
-```
-
 ## Usage
 
 **`ps(...args: (string | number)[]): string | null`**
