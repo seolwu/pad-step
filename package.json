@@ -1,0 +1,29 @@
+{
+  "name": "pad-step",
+  "version": "1.0.1",
+  "description": "padding a lot of strings",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seolwu/pad-step.git"
+  },
+  "keywords": [
+    "string",
+    "pad",
+    "log"
+  ],
+  "author": "seolwu",
+  "license": "MIT",
+  "homepage": "https://github.com/seolwu/pad-step#readme",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
