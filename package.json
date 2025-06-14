@@ -1,15 +1,17 @@
 {
   "name": "pad-step",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "padding a lot of strings",
   "main": "dist/index.js",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc"
   },
   "exports": {
     ".": {
-      "types": "./dist/index.d.ts"
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
     }
   },
   "repository": {
